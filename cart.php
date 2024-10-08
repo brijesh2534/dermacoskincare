@@ -40,15 +40,19 @@ if (isset($_GET['index'])) {
 
 <header class="bg-white border-bottom border-2">
     <nav class="container d-flex align-items-center justify-content-between py-3">
-        <a href="home.php" class="navbar-brand">
+        <a href="Home.php" class="navbar-brand">
             <img src="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-skin-care-logo-png-image_5774040.png" alt="Derma Co Logo" class="h-auto" style="max-height: 60px" />
         </a>
+        <ul class="nav d-none d-md-flex">
+            <li class="nav-item"><a href="Home.php" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="About.php" class="nav-link text-secondary">About Us</a></li>
+            <li class="nav-item"><a href="Contact.php" class="nav-link text-secondary">Contact Us</a></li>
+        </ul>
         <div class="d-flex align-items-center">
-            <a href="login.php" class="btn btn-outline-primary me-2">Admin Login</a>
+            <a href="Login.php" class="btn btn-outline-primary me-2">Admin Login</a>
             <a href="cart.php" class="btn btn-outline-secondary">
     <i class="fa-solid fa-cart-shopping"></i> Cart
 </a>
-
         </div>
     </nav>
 </header>
